@@ -1,6 +1,12 @@
 [package]
 name = "colour-strip"
 version = "0.1.0"
+authors = ["Daniel McKenna <danielmckenna93@gmail.com>"]
+description = "Strip ANSI colour codes from text input"
+repository = "https://github.com/xd009642/colour-strip"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+categories = ["development-tools"]
 edition = "2024"
 
 [dependencies]

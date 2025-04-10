@@ -10,10 +10,10 @@ use std::sync::LazyLock;
 #[derive(FromArgs)]
 #[argh(help_triggers("-h", "--help", "help"))]
 struct Args {
-    /// input file
+    /// input file - if not provided will read from stdin
     #[argh(option, short = 'i')]
     input: Option<PathBuf>,
-    /// output file
+    /// output file - if not provided will print to stdout
     #[argh(option, short = 'o')]
     output: Option<PathBuf>,
 }
